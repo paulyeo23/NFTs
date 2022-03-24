@@ -1,0 +1,11 @@
+SELECT * FROM TradeOffers;
+
+SELECT * FROM Request;
+
+SELECT * FROM NFTLIST;
+
+SELECT * FROM USERS;
+
+SELECT * FROM NFTOwner;
+
+SELECT * FROM Offer;

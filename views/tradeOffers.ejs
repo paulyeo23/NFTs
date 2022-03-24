@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <!-- AFTER HTML loads in browser, browser will request for CSS -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>Trade offers</h1>
+    <form action="/tradeoffers" method="POST">
+      <select name="option" multiple>
+        <option value="a"><%=TradeID %></option>
+        <option value="b">b</option>
+        <option value="c">c</option>
+      </select>
+      <input type="submit" />
+    </form>
+  </body>
+</html>
